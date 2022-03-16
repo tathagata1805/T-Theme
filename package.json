@@ -1,0 +1,31 @@
+{
+    "name": "t-theme",
+    "displayName": "T-Theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "tathagata1805",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "vscode",
+        "darktheme",
+        "dark",
+        "blue"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "T-Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/T-Theme-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^2.7.0"
+    }
+}
